@@ -1,7 +1,7 @@
 (html :lang 'en
   (head
     (meta :charset 'utf-8)
-    (link :rel 'stylesheet :href "/style.css")
+    (link :rel 'stylesheet :href "style.css")
     
     (script :src "runtime.js"   :defer ')
     (script :src "hyperlisp.js" :defer ')
