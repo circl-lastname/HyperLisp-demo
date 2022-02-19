@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.pane {
+  padding: 2px;
+  float: left;
+  width: calc(100% / 2 - 4px);
+  height: calc(100% - 4px);
+}
+
+textarea {
+  padding: 0;
+  margin: 0;
+  resize: none;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+}
+
+#top-pane {
+  padding: 2px;
+  width: calc(100% - 4px);
+  height: calc(100% / 4 * 3 - 4px - 1em - 4px);
+}
+
+#bottom-pane {
+  padding: 2px;
+  width: calc(100% - 4px);
+  height: calc(100% / 4 * 1 - 4px);
+}
+
+pre {
+  overflow: auto;
+  margin: 0;
+  height: 100%;
+}
+
+iframe {
+  display: block;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+}
