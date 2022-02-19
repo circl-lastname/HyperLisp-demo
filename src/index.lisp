@@ -13,7 +13,7 @@
       (input :type 'checkbox :id "fast-updates")
         (label :for "fast-updates" "Fast updates")
       (div :id "top-pane" 
-        (textarea :id "input"
+        (textarea :spellcheck 'false :id "input"
 "(html :lang 'en
   (head
     (meta :charset 'utf-8)
